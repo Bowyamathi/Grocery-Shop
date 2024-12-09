@@ -1,0 +1,159 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+/* Product Information Styling */
+.product-info {
+  padding: 10px;
+}
+
+.product-info h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-rating {
+  margin-top: 10px;
+}
+
+.rating-count {
+  margin-left: 5px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+/* Buttons */
+.product-buttons {
+  margin-top: 15px;
+}
+
+.product-buttons .btn {
+  border: none;
+  margin: 5px;
+  height: 60px;
+  width: 100px;
+  font-size: 0.8rem; /* Reduced font size */
+  padding: 8px 12px; /* Reduced padding for smaller button size */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+.buy-now {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.buy-now:hover {
+  background-color: #e0a800;
+}
+
+/* Layout adjustments */
+.text-center {
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-info table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.cart-info th,
+.cart-info td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.cart-info button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-info button:hover {
+  background-color: #c82333;
+}
+
+/* Adjusting button styling for quantity control */
+.cart-info button {
+  padding: 6px;
+}
+
+.cart-info .btn {
+  font-size: 0.8rem;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Cart totals */
+h4 {
+  margin-top: 20px;
+  color: #007bff;
+  font-weight: bold;
+}
